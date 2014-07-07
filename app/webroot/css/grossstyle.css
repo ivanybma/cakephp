@@ -1,0 +1,163 @@
+table.t1st 
+{ 
+margin: 0 auto;    /*---fix the table in the middle----*/
+padding: 0;
+width: 1340px;
+height: 600px;
+border-style: solid;
+border-width:1px;
+border-collapse: collapse;
+}
+
+td
+{
+border-width:1px;
+border-top-style: dotted;
+border-bottom-style: dotted;
+border-right-style: dotted;
+border-left-style: dotted;
+}
+ /*----table cell's layout need to be changed by td(don't use tr)----*/
+td .headc, .trailc, .mainc, .menuc, .endc    
+{
+width: 800px;
+}
+
+td .headr, .trailr, .mainr, .menur, .endr
+{
+width: 270px;
+}
+
+td .headc, .headl,.headr, .endc, .endr, .endl
+{
+height: 100px;
+}
+
+td .menuc, .menul, .menur, .trailc, .traill, .trailr
+{
+height: 25px;
+}
+td .mainc,.mainl,.mainr
+{
+height: 340px;
+}
+.acau
+{
+height:300px;
+display: block;
+overflow:auto;
+}
+
+.tstdv
+{
+width:800px;
+height:340px;
+background-color:#fffff2;
+overflow:hidden;
+}
+
+.usrfn
+{
+width:270px;
+height:340px;
+background-color:#fffff2;
+overflow:hidden;
+}
+
+.cfix::before {
+	height: 0px; overflow: hidden; display: block; content: "\0020";
+}
+.cfix::after {
+	height: 0px; overflow: hidden; display: block; content: "\0020";
+}
+.cfix::after {
+	clear: both;
+}
+.cfix {
+	-ms-zoom: 1;
+}
+
+
+.menudv {
+	width: 100%; font-family: Helvetica, Arial, sans-serif; margin-top: 0px; background-color: #889911;
+}
+.menudv ul {
+	letter-spacing: 0px; font-family: arial, helvetica, clean, sans-serif; margin-top: 0px; margin-bottom: 0px; margin-left: 0px;
+}
+.menudv ul {
+	list-style-type: none;
+}
+.menudv a {
+	text-decoration: none;
+}
+.menudv a:hover {
+	text-decoration: underline;
+}
+
+
+.menudv .topul {
+	padding: 0px 3%; width: 94%; font-size: 1em; list-style-type: none; position: relative; background-color: rgb(113, 111, 111);
+}
+.menudv .topul> li {
+	border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.menudv .topul > li:first-child {
+	border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid;
+}
+.menudv .topul > li > a {
+	padding: 10px 20px 0px; height: 15px; color: rgb(255, 255, 255); line-height: 10px; font-size: 1.15em; font-weight: bold; display: block;
+}
+.menudv .topul > li.current {
+	background: rgb(2, 128, 194);
+}
+.menudv .topul > li:hover {
+	background: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);
+}
+.menudv .topul > li:hover > a {
+	color: rgb(26, 77, 128);
+}
+
+.touch .secdv .bu-close {
+	display: inline;
+}
+
+.secdv {
+	left: 0.93em; width: 100%;
+}
+
+.secdv {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204); border-image: none; left: 3%; top: 28px; width: 97%; color: rgb(187, 187, 187); padding-bottom: 16px; display: none; position: absolute; min-height: 146px; opacity: 0; box-shadow: 2px 5px 5px #000; background-color: rgb(255, 255, 255); -webkit-box-shadow: 9px 60px 100px -50px #000; -moz-box-shadow: 2px 5px 5px #000;
+}
+.secdv ul {
+	font-size: 1em;
+}
+.secdv a {
+	color: rgb(26, 77, 128); font-weight: bold;
+}
+.secdv .bu-close {
+	background: url("//a.s.kqed.net/img/nav/icons-nav-secondary.png") no-repeat 0px -223px; right: 10px; bottom: 9px; text-transform: uppercase; padding-left: 13px; font-size: 0.76em; font-weight: normal; display: none; position: absolute;
+}
+.touch .secdv .bu-close {
+	display: inline;
+}
+.secdv .section {
+	margin: 16px 0px 0px 2%; padding: 4px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; float: left; position: relative; min-height: 162px;
+}
+.secdv :last-child.sectionWrap :last-child.section {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.secdv ul {
+	width: 149px; margin-right: 20px; float: left;
+}
+.secdv li {
+	margin-bottom: 0.8em;
+}
+
+
+
+#login table
+{
+height: 100px;
+width: 270px;
+border-collapse: collapse;
+}
